@@ -11,7 +11,7 @@ class BackgroundApp extends StatelessWidget {
           image: DecorationImage(
               image: AssetImage('assets/images/background.png'),
               fit: BoxFit.cover)),
-      child: const Center(child: TimeDisplay()),
+      child: const TimeDisplay(),
     );
   }
 }
