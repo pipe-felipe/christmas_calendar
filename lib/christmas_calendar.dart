@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'background_app.dart';
+import 'background_fill.dart';
 
 class ChristmasCalendar extends StatelessWidget {
   const ChristmasCalendar({super.key});
@@ -16,6 +16,6 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(body: BackgroundApp());
+    return const Scaffold(body: BackgroundFill());
   }
 }

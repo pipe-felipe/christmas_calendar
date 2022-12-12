@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'app_widget.dart';
+import 'christmas_calendar.dart';
 
 void main() {
   runApp(const ChristmasCalendar());

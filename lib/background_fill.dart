@@ -1,8 +1,8 @@
-import 'package:christmas_calendar/calendar_display/time_display.dart';
+import 'package:christmas_calendar/calendar_display/time_display_background.dart';
 import 'package:flutter/cupertino.dart';
 
-class BackgroundApp extends StatelessWidget {
-  const BackgroundApp({super.key});
+class BackgroundFill extends StatelessWidget {
+  const BackgroundFill({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +11,7 @@ class BackgroundApp extends StatelessWidget {
           image: DecorationImage(
               image: AssetImage('assets/images/background.png'),
               fit: BoxFit.cover)),
-      child: const TimeDisplay(),
+      child: const TimeDisplayBackground(),
     );
   }
 }
