@@ -2,10 +2,10 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-import 'display_font.dart';
+import 'countdown_display.dart';
 
-class TimeDisplayBackground extends StatelessWidget {
-  const TimeDisplayBackground({super.key});
+class CountdownDisplayBackground extends StatelessWidget {
+  const CountdownDisplayBackground({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,7 @@ class TimeDisplayBackground extends StatelessWidget {
             decoration: BoxDecoration(
                 color: Colors.red.withOpacity(0.5),
                 borderRadius: const BorderRadius.all(Radius.circular(29))),
-            child: const Center(child: FontDisplay()),
+            child: const Center(child: CountdownDisplay()),
           ),
         ),
       ),

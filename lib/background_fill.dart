@@ -1,4 +1,4 @@
-import 'package:christmas_calendar/calendar_display/time_display_background.dart';
+import 'package:christmas_calendar/calendar_display/countdown_display_background.dart';
 import 'package:flutter/cupertino.dart';
 
 class BackgroundFill extends StatelessWidget {
@@ -11,7 +11,7 @@ class BackgroundFill extends StatelessWidget {
           image: DecorationImage(
               image: AssetImage('assets/images/background.png'),
               fit: BoxFit.cover)),
-      child: const TimeDisplayBackground(),
+      child: const CountdownDisplayBackground(),
     );
   }
 }
